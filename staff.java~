@@ -1,0 +1,14 @@
+import becker.robots.*;
+
+public class staff extends RobotSE implements Runnable
+{
+  public staff(City sCity, int str, int ave, Direction dir)
+  {
+    super(sCity, str, ave, dir);
+  }
+  
+  public void run(){
+  
+  }
+  
+}

@@ -1,0 +1,25 @@
+import becker.robots.*;
+
+/** 
+ * A class extending Thing that represents the Students possessions
+ * 
+ * @Author Nathaniel Pankhurst
+ */
+
+public class Possession extends Thing
+{
+  public Possession(City sCity, int str, int ave, String desc, boolean held)
+  {
+    super(sCity, str, ave);
+  }
+  
+  /**public boolean getHeld()
+  {
+    return held;
+  }
+  
+  public String getDesc()
+  {
+    return desc;
+  }*/
+}
